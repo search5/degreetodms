@@ -1,0 +1,7 @@
+GET /api/degreetodms?lat=37.55369139&long=128.2131775 HTTP/2
+Host: localhost:8000
+
+###
+
+GET /api/degreetodms?lat=37.55369139 HTTP/2
+Host: localhost:8000
