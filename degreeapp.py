@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from werkzeug.exceptions import BadRequest
 
-app = Flask('degreetodms')
+app = Flask(__name__)
 
 
 def calc_dms(degree):

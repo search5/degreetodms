@@ -12,4 +12,4 @@ runtime: python39
 
 handlers:
 - url: /.*
-  script: degreeapp.app
+  script: main.app
